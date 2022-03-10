@@ -1,0 +1,30 @@
+<html>
+
+<head>
+    <title>
+        Contoh JS
+    </title>
+</head>
+<script>
+    hitung = (val1, val2)=> val1 + val2; 
+
+    function test(val1, val2) {
+        nilai = window.prompt("Nilainya :")
+        document.write("<br>" + "Perkalian : val1*val2 " + "<br>")
+        document.write(val1 * val2)
+        document.write("<br>" + "Pembagian : val1*val2 " + "<br>")
+        document.write(val1 / val2)
+        document.write("<br>" + "Penjumlah : val1*val2 " + "<br>")
+        document.write(val1 + val2)
+        document.write("<br>" + "Pengurangan : val1*val2 " + "<br>")
+        document.write(val1 - val2)
+        document.write("<br>" + "Modulus : val1*val2 " + "<br>")
+        document.write(val1 % val2)
+    }
+</script>
+
+<body>
+    <input type="button" name="button1" value="arithmetic" onclick=test(9,4)>
+</body>
+
+</html>

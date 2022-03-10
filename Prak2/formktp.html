@@ -1,0 +1,60 @@
+<html>
+    <head>
+        <title>
+            Form KTP
+        </title>
+    </head>
+    <body>
+        <form action="hasilktp.php" method="post">
+            <table>
+                <tr>
+                    <td>NIK</td>
+                    <td><input type="text" name="nik"></td>
+                </tr>
+                <tr>
+                    <td>Nama Lengkap</td>
+                    <td><input type="text" name="nama"></td>
+                </tr>
+                <tr>
+                    <td>Tempat, Tanggal Lahir</td>
+                    <td><input type="text" name="ttl"></td>
+                </tr>
+                <tr>
+                    <td>Jenis Kelamin</td>
+                    <td>
+                        <select name="jk">
+                            <option value="Laki-laki">Laki - laki</option>
+                            <option value="Perempuan">Perempuan</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Agama</td>
+                    <td><input type="text" name="agama"></td>
+                </tr>
+                <tr>
+                    <td>Status Perkawinan</td>
+                    <td>
+                        <select name="status">
+                            <option value="Sudah Menikah">Sudah Menikah</option>
+                            <option value="Belum Menikah">Belum Menikah</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Golongan Darah</td>
+                    <td><input type="text" name="golongandarah"></td>
+                </tr>
+                <tr>
+                    <td>Alamat</td>
+                    <td><input type="text" name="alamat"></td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="submit" name="login">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>

@@ -1,0 +1,37 @@
+<html>
+<head>
+    <title>
+        Soal 1
+    </title>
+</head>
+<script lang="JavaScript">
+    
+
+    function seleksi(){
+        var value = document.kirim.T1.value
+        
+        var hasil = "";
+        value <=40 ? hasil = "E" 
+        : value <=55? hasil = "D" 
+        : value <=60? hasil = "C" 
+        : value <=65? hasil = "BC"
+        : value <=70? hasil = "B" 
+        : value <=80? hasil = "AB" 
+        : hasil = "A";
+        document.kirim.T2.value=hasil
+    }
+    
+    
+</script>
+
+<body>
+    <form method="post" name="kirim">
+        <p>
+            NILAI <input type="text" name="T1" size="20"> MERUPAKAN <input type="text" name="T2" size="29">
+        </p>
+        <p>
+            <input type="button" value="HASIL" name="B1" onclick=seleksi()>
+        </p>
+    </form>
+</body>
+</html>

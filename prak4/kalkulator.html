@@ -1,0 +1,65 @@
+<html>
+<head>
+    <title>
+        Soal 2
+    </title>
+</head>
+<script lang="JavaScript">
+
+    function tambah(){
+        var val1 = parseInt(document.kirim.T1.value)
+        var val2 = parseInt(document.kirim.T2.value)
+        var hasil = val1 + val2 ;
+        document.kirim.result.value=hasil
+    }
+    function kurang(){
+        var val1 = document.kirim.T1.value
+        var val2 = document.kirim.T2.value
+        var hasil = val1 - val2 ;
+        document.kirim.result.value=hasil
+    }
+    function kali(){
+        var val1 = document.kirim.T1.value
+        var val2 = document.kirim.T2.value
+        var hasil = val1 * val2;
+        document.kirim.result.value=hasil
+    }
+    function bagi(){
+        var val1 = document.kirim.T1.value
+        var val2 = document.kirim.T2.value
+        var hasil = val1 / val2;
+        document.kirim.result.value=hasil
+    }
+    function modulus(){
+        var val1 = document.kirim.T1.value
+        var val2 = document.kirim.T2.value
+        var hasil = val1 % val2;
+        document.kirim.result.value=hasil
+    }
+    
+    
+</script>
+
+<body>
+    <form method="post" name="kirim">
+        <p>
+            NILAI 1 <input type="text" name="T1" size="20">
+        </p>
+        <p>
+            NILAI 2 <input type="text" name="T2" size="20">
+        </p>
+        <p>
+            <input type="button" value="+" name="B1" onclick=tambah()> 
+            <input type="button" value="-" name="B2" onclick=kurang()>
+            <input type="button" value="x" name="B3" onclick=kali()>
+            <input type="button" value="/" name="B4" onclick=bagi()> 
+            <input type="button" value="%" name="B5" onclick=modulus()>
+        </p>
+        <p>
+            HASIL <input type="text" name="result" size="29">
+        </p>
+    </form>
+
+</body>
+
+</html>

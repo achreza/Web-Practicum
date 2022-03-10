@@ -1,0 +1,85 @@
+<html>
+<head>
+    <style>
+        #jadwal {
+            font-family: Arial, Helvetica, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
+        #jadwal td,#jadwal th {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+
+        #jadwal tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        #jadwal tr:hover {
+            background-color: #ddd;
+        }
+        #jadwal th {
+            padding-top: 12px;
+            padding-bottom: 12px;
+            text-align: left;
+            background-color: #04AA6D;
+            color: white;
+        }
+        td.jam {
+            text-align: left;
+            background-color: #04AA6D;
+            color: white;
+        }
+    </style>
+</head>
+<body style="font-family: Arial, Helvetica, sans-serif; text-align: center;">
+
+    <h1>Jadwal Kuliah</h2>
+        <p>Semester 4</p>
+
+        <table id="jadwal">
+            <tr>
+                <th>Jam \ Hari</th>
+                <th>Senin</th>
+                <th>Selasa</th>
+                <th>Rabu</th>
+                <th>Kamis</th>
+                <th>Jumat</th>
+            </tr>
+            <tr>
+                <td class="jam">6.30 - 8.10</td>
+                <td>Technopreneurship</td>
+                <td>Praktikum RPL</td>
+                <td>-</td>
+                <td>Praktikum Grafika Komputer</td>
+                <td>Bahasa Inggris</td>
+            </tr>
+            <tr>
+                <td class="jam">8.10 - 9.50</td>
+                <td>-</td>
+                <td>Praktikum Web</td>
+                <td>Praktikum jaringan Komputer</td>
+                <td>Pemrogaman Web</td>
+                <td>Bahasa Inggris</td>
+            </tr>
+            <tr>
+                <td class="jam">9.50 - 11.30</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td class="jam">12.20 - 14.50</td>
+                <td>Grafika Komputer</td>
+                <td>Artifical Intelegence</td>
+                <td>Jaringan Komputer</td>
+                <td>Rekayasa Perangkat Lunak</td>
+                <td>-</td>
+            </tr>
+        </table>
+
+        <button onclick="history.back()"
+            style="background-color: #333; color: azure; font-size: 20px; margin-top: 20px;">Go Back</button>
+</body>
+</html>
