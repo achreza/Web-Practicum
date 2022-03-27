@@ -63,10 +63,6 @@
         }
         $awal1++;
     } while ($awal1 < $jumlah);
-
-    
-
-
     ?>
 </head>
 
